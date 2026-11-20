@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: chua-an-nhien
+    runtime: docker
+    region: singapore
+    plan: free
+    healthCheckPath: /health
